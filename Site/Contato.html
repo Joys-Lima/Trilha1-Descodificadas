@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="Imagens/Icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav class="botao-container">
+                <button class="menuBotao hover"><a href="Home.html" class="textoBotao">Home</a></button>
+                <button class="menuBotao"><a target="_blank" href="SobreMim.html" class="textoBotao">Sobre
+                        Mim</a></button>
+                <button class="menuBotao"><a target="_blank" href="Novidades.html"
+                        class="textoBotao">Novidades</a></button>
+                <button class="menuBotao"><a target="_blank" href="Contato.html" class="textoBotao">Contato</a></button>
+            </nav>
+        </header>
+        <section class="BackContato">
+            <section class="container3">
+                <div class="item">
+                    <img src="./Imagens/Joy kindle.jpg"
+                        alt="Uma foto minha sentada na cama segurando um kindle. Estou com uma camiseta lilas, calça preta e cabelo afro solto"
+                        height="400" width="400" id="imgContato">
+                </div>
+                <div class="item">
+                    <h1 id="h1Contato">Contato</h1>
+                    <p><strong>Para entrar em contato:</strong></p>
+                    <p>Email: jsarmentodelima@gmail.com</p>
+                    <p>Instagram Literário: @joys_books</p>
+
+                    <br>
+
+                    <button class="botaoContato"><a target="_blank" href="https://maratona.app/u/joys_lima"
+                            class="textoBotao2">Maratona App</a></button>
+                    <br>
+                    <br>
+                    <button class="botaoContato"><a target="_blank" href="https://instagram.com/joys_books"
+                            class="textoBotao2">Instagram</a></button>
+                </div>
+            </section>
+        </section>
+        <section class="container">
+            <div class="item">
+                <h4 id="h4Forms">Formulário para a criação de um Clube de Leitura</h4>
+                <p>Estou pensando em criar um clube de leitura, em que cada mês escolhemos um título para lermos juntos
+                    e discutir em um grupo criado especialmente para isso!! Caso tenha interesse prencha os dados:</p>
+            </div>
+            <section>
+                <section>
+                    <p>Nome e Sobrenome</p>
+                    <form>
+                        <input type="text" placeholder="Digite seu nome completo" required>
+                        <!--Usa required para perguntas obrigatorias-->
+                    </form>
+                </section>
+                <section>
+                    <p>E-mail</p>
+                    <form>
+                        <input type="email" name="email" placeholder="Digite seu E-mail" required><br>
+                    </form>
+                </section>
+                <section>
+                    <p>Qual a sua idade</p>
+                    <form>
+                        <input type="radio" name="Idade" value="18_25" id="idade1">
+                        <label for="idade1">18 a 25 anos</label><br>
+                        <input type="radio" name="Idade" value="26_30" id="idade2">
+                        <label for="idade2">26 a 30 anos</label><br>
+                        <input type="radio" name="Idade" value="mais30" id="idade3">
+                        <label for="idade3">Acima de 30 anos</label><br>
+                    </form>
+                </section>
+                <section>
+                    <p>Quais os seu gêneros literarios favoritos?</p>
+                    <form>
+                        <input type="text" id="perguntaGenero" name="generosLiterarios"
+                            placeholder="Digite sua resposta">
+                    </form>
+                </section>
+                <section>
+                    <p>Teria interesse de participar de um grupo de leitura?</p>
+                    <form>
+                        <input type="radio" name="Idade" value="sim" id="rSim">
+                        <label for="rSim">Sim</label><br>
+                        <input type="radio" name="Idade" value="não" id="rNao">
+                        <label for="rNao">Não</label><br>
+                        <input type="radio" name="Idade" value="talvez" id="rTalvez">
+                        <label for="rTalvez">Talvez</label>
+                    </form>
+                </section>
+                <section class="item">
+                    <form>
+                        <input type="submit" name="enviar" value="Enviar Formulário" id="botaoEnviar">
+                    </form>
+                </section>
+            </section>
+
+        </section>
+        <footer>
+            <p class="pFooter">Criado por Joyce S. Lima</p>
+        </footer>
+
+
+    </div>
+</body>
+
+</html>
